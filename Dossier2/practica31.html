@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <form class="" action="index.html" method="post">
+      <h3>INTERESES:</h3>
+      COLOR DE FONDO FAVORITO:
+      <select name="color">
+        <option value="negro">Negro</option>
+        <option value="verde">Verde</option>
+        <option value="rojo" selected>Rojo</option>
+        <option value="azul">Azul</option>
+        <option value="blanco">Blanco</option>
+      </select>
+      <br>
+      INTERESES:
+      <select name="interes" size="n" multiple>
+        <option value="mascotas">Mascotas</option>
+        <option value="informatica">Informática</option>
+        <option value="literatura" selected>Literatura</option>
+        <option value="salud">Salud</option>
+      </select>
+      SUCURSALES:
+      <select name="sucursales" size="10">
+        <optgroup label="Tenerife">
+          <option value="01">La Laguna</option>
+          <option value="02">Puerto de la Cruz</option>
+          <option value="03">Arona</option>
+        </optgroup>
+        <optgroup label="El Hierro">
+          <option value="04">Valverde</option>
+          <option value="05">La restinga</option>
+        </optgroup>
+        <optgroup label="La Gomera">
+          <option value="06">Vallehermoso</option>
+          <option value="07">San Sebastián</option>
+        </optgroup>
+        <optgroup label="La Palma">
+          <option value="08">Mazo</option>
+          <option value="09">El Paso</option>
+          <option value="10">Garafía</option>
+        </optgroup>
+      </select>
+      <hr>
+      Introduzca sus comentarios:
+      <br>
+      <input type="textarea" name="comentarios" value="sus comentarios aqui...">
+      <hr>
+      <input type="button" name="Aceptar" value="Aceptar">
+      <input type="button" name="Borrar" value="Borrar">
+    </form>
+  </body>
+</html>
