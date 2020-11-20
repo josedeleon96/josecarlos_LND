@@ -8,30 +8,30 @@
   <form class="" action="procesar.php" method="post">
   <fieldset><legend>Datos del propietario</legend>
     <label for="nombre">Nombre:</label><br/>
-    <input type="text" name="" value="">
+    <input type="text" id="" value="">
     <br>
     <label for="sexo">Sexo:</label>
-    <input type="radio" name="masc" checked>Masculino
-    <input type="radio" name="fem">Femenino
+    <input type="radio" id="masc" checked>Masculino
+    <input type="radio" id="fem">Femenino
   </fieldset>
   <fieldset><legend>Datos del vehículo</legend>
     <label for="marca_modelo">Marca/modelo:</label>
-    <input type="text" name="marca_modelo" value="">
+    <input type="text" id="marca_modelo" value="">
     <br>
     <label for="matricula">Matrícula:</label>
-    <input type="text" name="matricula" value="">
+    <input type="text" id="matricula" value="">
     <br>
     <label for="caracteristicas">Características:</label>
-    <select multiple="multiple" size="3" name="caracteristicas">
+    <select multiple="multiple" size="3" id="caracteristicas">
       <option value="1" checked>Utilitario</option>
       <option value="2">Todo Terreno</option>
       <option value="3" checked>Alta gama</option>
     </select><br/>
     <label for="datos">Otros Datos:</label>
-    <input type="checkbox" name="servofrenos" checked>Servofrenos
-    <input type="checkbox" name="elevalunas" checked>Elevalunas
-    <input type="checkbox" name="remolque">Remolque
+    <input type="checkbox" id="servofrenos" checked>Servofrenos
+    <input type="checkbox" id="elevalunas" checked>Elevalunas
+    <input type="checkbox" id="remolque">Remolque
   </fieldset>
-  <input type="button" name="enviar" value="enviar">
+  <input type="button" id="enviar" value="enviar">
   </form>
 </body>
