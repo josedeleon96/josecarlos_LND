@@ -1,0 +1,37 @@
+table{
+  border: darkblue
+  1px solid;
+}
+.cabecera{
+  background-color: darkblue;
+  text-decoration-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.cuerpo{
+  background-color: grey;
+  color: darkblue;
+  font-size: 12px;
+  text-align: justify;
+}
+.pie{
+  background-color: darkblue;
+  font-size: 10px;
+  text-align: right;
+  color: white;
+}
+.HTML{
+  float: left;
+}
+.XHTML{
+  float: right;
+  width: 400px;
+}
+.CSS{
+  float: left;
+  width: 400px;
+}
+.LND{
+  float: right;
+}

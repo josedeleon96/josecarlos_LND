@@ -1,0 +1,26 @@
+.cabecera{
+  background-image: url("textura.png");
+  background-repeat: repeat-x;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+}
+.fondo{
+  background-image: url("textura.png");
+  background-repeat: repeat-x;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  clear: both;
+}
+img{
+  width: 25px;
+}
+.anterior{
+  float: left;
+}
+.posterior{
+  float: right;
+}

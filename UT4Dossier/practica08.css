@@ -1,0 +1,36 @@
+table{
+  border: darkblue
+  1px solid;
+}
+.cabecera{
+  background-color: #D7BDE2;
+  text-decoration-color: white;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.cuerpo{
+  background-color: white;
+  font-size: 12px;
+  text-align: justify;
+}
+.pie{
+  background-color: #D7BDE2;
+  font-size: 10px;
+  text-align: right;
+  color: white;
+}
+.HTML{
+  float: left;
+}
+.XHTML{
+  float: right;
+  width: 400px;
+}
+.CSS{
+  float: left;
+  width: 400px;
+}
+.LND{
+  float: right;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+  label {color: blue; text-decoration: underline}
+</style>
+</head>
+<body>
+  <h3>Información sobre el producto</h3>
+  <form class="" action="index.html" method="post">
+    <fieldset>
+      <legend>Datos básicos</legend>
+      <label for="nombre">Nombre</label><br/>
+      <input type="text" id="nombre" style="color:blue;background-color:grey">
+      <br>
+      <label for="descripcion">Descripción</label><br/>
+      <textarea id"descripcion" rows="8" cols="80" style="color:blue;background-color:grey"></textarea>
+      <br>
+      Foto <input type="file" id="foto">
+      <br>
+      <input type="checkbox" id="contador" value="">Añadir contador de visitas
+    </fieldset>
+    <fieldset>
+      <legend>Datos económicos</legend>
+      <label for="precio">Precio</label>
+      <input type="text" id="precio" size="5" style="background-color:red;font-family:arial;font-size:16px;font-weight:bolder"> &euro;
+      <label for="impuesto">Impuestos</label>
+      <select id="Impuestos">
+        <option value="4">4%</option>
+        <option value="7">7%</option>
+        <option value="16">16%</option>
+        <option value="25">25%</option>
+      </select>
+        <br>
+        <label for="promocion">Promoción</label><br>
+        <input type="radio" id="promocion" value="ninguno" checked>Ninguno <br>
+        <input type="radio" id="promocion" value="transporte"> Transporte gratuito <br>
+        <input type="radio" id="promocion" value="descuento" ><p style="border-color:green;border-width:5px;border-style:dashed">Descuento 5% <br>
+    </fieldset>
+  </form>
+</body>

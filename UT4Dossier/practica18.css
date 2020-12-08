@@ -1,0 +1,14 @@
+.cabecera{
+  background-image: url("textura.png");
+  background-repeat: repeat-x;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.lateral{
+  font-weight: bold;
+  text-align: center;
+  width: 200px;
+  height: 500px;
+  background-color: #FF00FF;
+}

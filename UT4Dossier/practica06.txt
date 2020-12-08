@@ -1,0 +1,11 @@
+1) table p{text-align: justify}
+Los textos de los parrafos dentro de las tablas se justifica.
+
+2) table p a{word-spacing: 10px}
+Los textos de los parrafos y las referencias dentro de las tablas se separará por 10 px.
+
+3) table, p, a {background-image: gato.gif}
+El fondo de las tablas los parrafos y las referencias seran un gif.
+
+4) p * a {border-top: solid 2px green}
+El borde de arriba de los parrafos y las referencias será verde de 2px sólido.
